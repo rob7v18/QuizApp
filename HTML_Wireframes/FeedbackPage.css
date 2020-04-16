@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Arial';
+    background-color: lightskyblue;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.mainBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+    height: 600px;
+    background-color: blue;
+
+    border-radius: 5%;
+}
+
+header h1 {
+    display: flex;
+    font-size: 2.5rem;
+}
+
+div h2 {
+    display: flex;
+    font-size: 1.5rem;
+    margin-top: 60px;
+}
+
+.startButton {
+    display: flex;
+    margin: 5rem;
+    padding: 10px;
+    font-size: 2rem;
+    border-radius: 10%;
+}
+
+.test input[type="radio"] {
+
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.results label {
+    display: inline-block;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.feedback {
+    margin-top: 90px;
+}
+
+

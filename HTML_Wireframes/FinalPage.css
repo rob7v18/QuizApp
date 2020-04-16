@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Arial';
+    background-color: lightskyblue;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.mainBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+    height: 600px;
+    background-color: blue;
+    margin: auto;
+    border-radius: 5%;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+
+    width: 75%;
+    height:250px;
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 5%;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    margin-top: 50px;
+    font-size: 2.5rem;
+}
+
+header h2{
+    text-align: center;
+    font-size: 2rem;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.overallScore {
+    margin-top: 200px;
+    font-size: 2rem;
+}
+
+.startButton {
+    display: flex;
+    margin: 5rem;
+    padding: 10px;
+    font-size: 2rem;
+    border-radius: 10%;
+}
+
+
