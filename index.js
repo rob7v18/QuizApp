@@ -43,7 +43,7 @@ function generateQuestion(questionIndex) {
 function overallScore() {
     $('.overall').text(`YOUR OVERALL SCORE: ${score}/${questionNumber}`);
     $('.questionNumbers').text(`Question: ${questionNumber}/6`);
-    $('.stats').append(`<button type="restart" class="restartButton button">RESTART</button>`);
+    $('.stats').append(`<button type="button" class="restartButton button">RESTART</button>`);
 }
 
 function renderQuestion() {
@@ -63,7 +63,7 @@ function startQuiz() {
         $('.questionsBox').show();
         $('.questionNumbers').text(`Question: ${questionNumber + 1}/6`);
         $('.score').text('Score: 0');
-        $('.stats').append(`<button type="submit" class="submitButton button">SUBMIT</button>`);
+        $('.stats').append(`<button type="button" class="submitButton button">SUBMIT</button>`);
         $('.questionsBox').prepend(renderQuestion());
         $('.startButton').hide();
     });
@@ -91,7 +91,7 @@ function submitAnswer() {
             $('.score').text(`Score: ${score}`);
         }
         $('.submitButton').hide();
-        $('.stats').append(`<button type="buttonNext" class="nextButton button">NEXT</button>`);
+        $('.stats').append(`<button type="button" class="nextButton button">NEXT</button>`);
         questionNumber = questionNumber + 1;
     });
 }
